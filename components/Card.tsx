@@ -15,7 +15,7 @@ export default function Card({ meetup }: Props) {
 
   const disabled = (session?.user?.email === meetup.creator) || (session?.user?.email === "yuvrajsingh1704@gmail.com");
 
-  const deployedUrl = "https://next-meetups-production.up.railway.app";
+  const deployedUrl = "https://next-meetup-2-0.vercel.app";
 
   const url = (deployedUrl) + "/api/delete-meetup";
   // console.log("url is @card.jsx", url);
